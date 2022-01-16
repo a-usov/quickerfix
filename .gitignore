@@ -1,4 +1,3 @@
-### GitHub C++ Template
 # Prerequisites
 *.d
 
@@ -32,9 +31,12 @@
 *.out
 *.app
 
-### Own Jetbrains exclusions
+# Jetbrains
 cmake-build-*/
 .idea/
 
-### General CMake exclusions
+# CMake
 build*/
+
+# ApprovalTests
+*.received.txt
